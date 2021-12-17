@@ -1,0 +1,42 @@
+1.git clone url
+for downloading a folder from github
+
+
+after updating a code,we need to add it to final repositaries.for that we use two commands add and commit.  
+
+2.git add filename
+this is used for tracking    
+eg: git add .\filename
+
+3.git commit
+this is continuation for git add
+syntax: git commit -m"first commit"
+
+4. git status 
+it is used to check the status of the current git
+
+5. git push 
+it is used to push the file into github repository
+
+6.git pull
+it is used to get the file from the github repository
+we need not update any changes after pulling.
+usually the code will be merged .in case if it is not merged then merge conflicts will occur,
+in that cases the command prompt will show kindoff message.
+so we need to do after making some changes.
+
+
+7.git commit -am".............."
+itt is a shortcut used to add and commit till that work that 
+
+8.
+git reset--hard commit hash
+it resets to the hash value at which it is been allocated.
+git reset--hard origin/master
+it resets to the origin
+
+At times liner storing of commits leads to the bugs.inorder to avoid it we use a concept called branching.
+
+usually we call the main branch as master branch. 
+9. git branch
+10. git checkout-b"........."
